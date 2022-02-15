@@ -20,9 +20,9 @@ function Footer(){
                         </div>
                         <div className="footer-socail-media">
                             <ul>
-                                <li><a href="#">facebook</a></li>
-                                <li><a href="#">instagram</a></li>
-                                <li><a href="#">twitter</a></li>
+                                <li><a href="https://web.facebook.com/">facebook</a></li>
+                                <li><a href="https://www.instagram.com/">instagram</a></li>
+                                <li><a href="https://twitter.com/">twitter</a></li>
                             </ul>
                         </div>
                     </div>

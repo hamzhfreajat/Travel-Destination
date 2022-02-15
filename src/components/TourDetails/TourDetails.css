@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Rubik" !important;
+    display: grid;
+    grid-template-rows:65px 1fr 65px ;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+
+.tour-container{
+    max-width:900px;
+    margin: 150px auto;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+}
+.tour-container img{
+    width: 100%;
+}
+.content{
+    padding: 30px;
+}
+.tour-container p{
+    line-height: 1.4;
+}
+.read-more-link{
+    color: #495371;
+    font-size: 15px;
+    cursor: pointer;
+}
