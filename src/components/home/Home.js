@@ -1,16 +1,15 @@
 
 import Header from '../header/Header';
 import Footer from './../footer/Footer';
+import Banner from '../banner/Banner'; 
 import Tours from './../tours/Tours';
-import data from './../../data/db.json'; 
 import './Home.css'
 
-function Home(){
+function Home(prams){
    return(
-    <div className='home'>
-        <Header />
-        <Tours data={data}></Tours>
-        <Footer />
+    <div className='home'> 
+        <Banner />
+        <Tours data={prams.data}></Tours>
     </div>
    );
 }
